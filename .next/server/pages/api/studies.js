@@ -19,7 +19,7 @@ const handler = next_connect__WEBPACK_IMPORTED_MODULE_0___default()({}).get(asyn
       name: 'Mentorama',
       office: 'UI/UX Designer and Web Development',
       time: 'September 2019 – Done',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.',
+      description: 'Course focused on website prototyping, component creation, typography and grid structuring.',
       image: '/img/logo_mentorama.jpeg',
       skills: ['HTML', 'CSS', 'Figma', 'Javascript']
     }, {
@@ -27,7 +27,7 @@ const handler = next_connect__WEBPACK_IMPORTED_MODULE_0___default()({}).get(asyn
       name: 'University of Mato Grosso',
       office: 'Chemistry Engineering',
       time: 'October 2021 – Done',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.',
+      description: 'Degree in engineering with a focus on solving problems and finding new solutions in production lines in general.',
       image: '/img/logo_ufmt.png',
       skills: ['Solve issues']
     }]

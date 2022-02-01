@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <GlobalStyle />
       <Head>
-        <title>Suporte Arcke</title>
+        <title>Vinícius Grippe - Front-end Developer and UX/UI Designer</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -29,28 +29,28 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="img/apple-touch-icon.png"
+          href="img/apple-touch-icon.png "
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="img/favicon-32x32.png"
+          href="img/favicon-32x32.png "
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="img/favicon-16x16.png"
+          href="img/favicon-16x16.png "
         />
-        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="manifest" href="/site.webmanifest " />
         <link
           rel="mask-icon"
           href="img/safari-pinned-tab.svg"
-          color="#62b3e2"
+          color="#010103 "
         />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="msapplication-TileColor" content="#f9f9fb " />
+        <meta name="theme-color" content="#f9f9fb " />
       </Head>
 
       <Component {...pageProps} />

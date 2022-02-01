@@ -49,7 +49,7 @@ const Portfolio: NextPage = () => {
                   '0 1 100%',
                 ]}
               >
-                <ImageCard src="/img/thumb_m2.png" />
+                <ImageCard loading="lazy" src="/img/thumb_m2.png" />
                 <Box>
                   <Text variant="title">M2Data</Text>
                   <Text>
@@ -75,7 +75,7 @@ const Portfolio: NextPage = () => {
                   '0 1 100%',
                 ]}
               >
-                <ImageCard src="/img/thumb_best.png" />
+                <ImageCard loading="lazy" src="/img/thumb_best.png" />
                 <Box>
                   <Text variant="title">Best Intercâmbios</Text>
                   <Text>
@@ -101,7 +101,7 @@ const Portfolio: NextPage = () => {
                   '0 1 100%',
                 ]}
               >
-                <ImageCard src="/img/thumb_wrge.png" />
+                <ImageCard loading="lazy" src="/img/thumb_wrge.png" />
                 <Box>
                   <Text variant="title">WRGE</Text>
                   <Text>
@@ -127,7 +127,7 @@ const Portfolio: NextPage = () => {
                   '0 1 100%',
                 ]}
               >
-                <ImageCard src="/img/thumb_cvn.png" />
+                <ImageCard loading="lazy" src="/img/thumb_cvn.png" />
                 <Box>
                   <Text variant="title">CV Notícias</Text>
                   <Text>
@@ -153,7 +153,7 @@ const Portfolio: NextPage = () => {
                   '0 1 100%',
                 ]}
               >
-                <ImageCard src="/img/thumb_weeke.png" />
+                <ImageCard loading="lazy" src="/img/thumb_weeke.png" />
                 <Box>
                   <Text variant="title">Weeke Franquias</Text>
                   <Text>
@@ -179,7 +179,7 @@ const Portfolio: NextPage = () => {
                   '0 1 100%',
                 ]}
               >
-                <ImageCard src="/img/thumb_metha.png" />
+                <ImageCard loading="lazy" src="/img/thumb_metha.png" />
                 <Box>
                   <Text variant="title">Colégio Metha</Text>
                   <Text>
@@ -205,7 +205,7 @@ const Portfolio: NextPage = () => {
                   '0 1 100%',
                 ]}
               >
-                <ImageCard src="/img/thumb_zukt.png" />
+                <ImageCard loading="lazy" src="/img/thumb_zukt.png" />
                 <Box>
                   <Text variant="title">Zukt Labs</Text>
                   <Text>
@@ -231,7 +231,7 @@ const Portfolio: NextPage = () => {
                   '0 1 100%',
                 ]}
               >
-                <ImageCard src="/img/thumb_agro.png" />
+                <ImageCard loading="lazy" src="/img/thumb_agro.png" />
                 <Box>
                   <Text variant="title">Agroplus</Text>
                   <Text>
@@ -257,7 +257,7 @@ const Portfolio: NextPage = () => {
                   '0 1 100%',
                 ]}
               >
-                <ImageCard src="/img/thumb_dash.png" />
+                <ImageCard loading="lazy" src="/img/thumb_dash.png" />
                 <Box>
                   <Text variant="title">Dash</Text>
                   <Text>

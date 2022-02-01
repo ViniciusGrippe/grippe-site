@@ -155,16 +155,28 @@ export const Button = styled.button<Props>`
       css`
         background: #c6f6d5;
         color: #21543d;
+        &:hover {
+          background: #c6f6d5;
+          color: #21543d;
+        }
       `}
       ${props.color === 'orange' &&
       css`
         background: #fed7d7;
         color: #822727;
+        &:hover {
+          background: #fed7d7;
+          color: #822727;
+        }
       `}
       ${props.color === 'blue' &&
       css`
         background: #d1edfd;
         color: #1d475f;
+        &:hover {
+          background: #d1edfd;
+          color: #1d475f;
+        }
       `}
       &:hover {
         opacity: 0.85;

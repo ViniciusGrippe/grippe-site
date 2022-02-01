@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsGithub, BsKanban } from 'react-icons/bs';
 import { FaReact } from 'react-icons/fa';
 import { IoLogoHtml5, IoLogoCss3 } from 'react-icons/io';
 import {
@@ -79,17 +80,28 @@ const Index: NextPage = () => {
               >
                 Web Design
               </Button>
+              <Button
+                variant="ghost"
+                color={tab === 3 ? 'blue' : ''}
+                onClick={() => {
+                  setTab(3);
+                }}
+              >
+                DevOps
+              </Button>
             </Stack>
           </Stack>
           {tab === 0 ? (
             <TabWebDev />
           ) : tab === 1 ? (
             <TabWebDes />
+          ) : tab === 3 ? (
+            <TabDevOps />
           ) : (
             <Stack spacing={'20px'}>
               <TabWebDes />
-
               <TabWebDev />
+              <TabDevOps />
             </Stack>
           )}
         </Container>
@@ -357,6 +369,63 @@ const TabWebDes = () => {
         <Box>
           <Text variant="title">Figma</Text>
           <Text>Design Prototyping</Text>
+        </Box>
+      </Card>
+    </Stack>
+  );
+};
+
+const TabDevOps = () => {
+  return (
+    <Stack direction={'row'} wrap="wrap" spacing="20px">
+      <Card
+        as={Stack}
+        direction={'row'}
+        spacing="15px"
+        width={[
+          '0 1 calc(50% - 52px)',
+          '0 1 calc(50% - 52px)',
+          '0 1 100%',
+          '0 1 100%',
+        ]}
+        alignItems={'center'}
+      >
+        <Box
+          width={'fit-content'}
+          background="#d1edfd"
+          padding="15px"
+          borderRadius={'10px'}
+        >
+          <BsGithub size="25px" color="#1d475f" />
+        </Box>
+        <Box>
+          <Text variant="title">Github</Text>
+          <Text>Version control</Text>
+        </Box>
+      </Card>
+      <Card
+        as={Stack}
+        direction={'row'}
+        spacing="15px"
+        width={[
+          '0 1 calc(50% - 52px)',
+          '0 1 calc(50% - 52px)',
+          '0 1 100%',
+          '0 1 100%',
+        ]}
+        alignItems={'center'}
+      >
+        <Box
+          width={'fit-content'}
+          background="#d1edfd"
+          padding="15px"
+          borderRadius={'10px'}
+        >
+          <BsKanban size="25px" color="#1d475f" />
+        </Box>
+        <Box>
+          <Text variant="title">Kanban</Text>
+          <Text>DevOps</Text>
         </Box>
       </Card>
     </Stack>

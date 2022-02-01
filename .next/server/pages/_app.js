@@ -47,7 +47,7 @@ function MyApp({
   return /*#__PURE__*/(0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
     children: [/*#__PURE__*/jsx_runtime_.jsx(global/* GlobalStyle */.ZL, {}), /*#__PURE__*/(0,jsx_runtime_.jsxs)((head_default()), {
       children: [/*#__PURE__*/jsx_runtime_.jsx("title", {
-        children: "Suporte Arcke"
+        children: "Vin\xEDcius Grippe - Front-end Developer and UX/UI Designer"
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "preconnect",
         href: "https://fonts.googleapis.com"
@@ -64,30 +64,30 @@ function MyApp({
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "apple-touch-icon",
         sizes: "180x180",
-        href: "img/apple-touch-icon.png"
+        href: "img/apple-touch-icon.png "
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: "img/favicon-32x32.png"
+        href: "img/favicon-32x32.png "
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: "img/favicon-16x16.png"
+        href: "img/favicon-16x16.png "
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "manifest",
-        href: "/site.webmanifest"
+        href: "/site.webmanifest "
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "mask-icon",
         href: "img/safari-pinned-tab.svg",
-        color: "#62b3e2"
+        color: "#010103 "
       }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         name: "msapplication-TileColor",
-        content: "#ffffff"
+        content: "#f9f9fb "
       }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         name: "theme-color",
-        content: "#ffffff"
+        content: "#f9f9fb "
       })]
     }), /*#__PURE__*/jsx_runtime_.jsx(Component, _objectSpread({}, pageProps))]
   });
