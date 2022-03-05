@@ -14,7 +14,6 @@ import {
   Container,
   ImageCard,
   Stack,
-  Tag,
   Text,
 } from '~/styles/global';
 
@@ -153,6 +152,32 @@ const Portfolio: NextPage = () => {
                   '0 1 100%',
                 ]}
               >
+                <ImageCard loading="lazy" src="/img/thumb_delivery.png" />
+                <Box>
+                  <Text variant="title">Delivery System</Text>
+                  <Text>
+                    A plataform for restaurants or similars manage their orders
+                    and control the delivery organization.
+                  </Text>
+                </Box>
+                <a
+                  href="https://weeke-delivery-painel.vercel.app/orders"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button>Live Demo</Button>
+                </a>
+              </Card>
+              <Card
+                as={Stack}
+                spacing="15px"
+                width={[
+                  '0 1 calc(50% - 52px)',
+                  '0 1 calc(50% - 52px)',
+                  '0 1 100%',
+                  '0 1 100%',
+                ]}
+              >
                 <ImageCard loading="lazy" src="/img/thumb_weeke.png" />
                 <Box>
                   <Text variant="title">Weeke Franquias</Text>
@@ -214,11 +239,11 @@ const Portfolio: NextPage = () => {
                   </Text>
                 </Box>
                 <a
-                  href="https://www.figma.com/proto/c3KvXdRfJF2dlp5Z0tZFtc/Zukt-Labs?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2"
+                  href="http://zuktlabs-site.host.zukt.cloud"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button>See Prototype</Button>
+                  <Button>Live Demo</Button>
                 </a>
               </Card>
               <Card
@@ -240,11 +265,11 @@ const Portfolio: NextPage = () => {
                   </Text>
                 </Box>
                 <a
-                  href="https://www.figma.com/proto/fsPlDn8UA9aINHlJCi40fs/Agroplus?page-id=0%3A1&node-id=0%3A8&viewport=299%2C48%2C0.57&scaling=min-zoom&starting-point-node-id=0%3A8"
+                  href="http://agroplus-site.host.zukt.cloud"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button>See Prototype</Button>
+                  <Button>Live Demo</Button>
                 </a>
               </Card>
               <Card
@@ -271,6 +296,36 @@ const Portfolio: NextPage = () => {
                   rel="noreferrer"
                 >
                   <Button>See Prototype</Button>
+                </a>
+              </Card>
+
+              <Card
+                as={Stack}
+                spacing="15px"
+                width={[
+                  '0 1 calc(50% - 52px)',
+                  '0 1 calc(50% - 52px)',
+                  '0 1 100%',
+                  '0 1 100%',
+                ]}
+              >
+                <ImageCard loading="lazy" src="/img/thumb_ecommerce.png" />
+                <Box>
+                  <Text variant="title">e-Commerce System</Text>
+                  <Text>
+                    A system from marketplaces manage their products and orders.
+                    Credentials to acess: <br />
+                    E-mail: tech@zukt.com.br
+                    <br />
+                    Password: 123123
+                  </Text>
+                </Box>
+                <a
+                  href="https://zcommerce-painel.pages.dev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button>Live Demo</Button>
                 </a>
               </Card>
             </Stack>

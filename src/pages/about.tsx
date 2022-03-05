@@ -3,7 +3,6 @@ import { BiCompass } from 'react-icons/bi';
 import { HiOutlineAcademicCap } from 'react-icons/hi';
 
 import { NextPage } from 'next';
-import Link from 'next/link';
 import useSWR from 'swr';
 
 import CardComponent from '~/components/card';

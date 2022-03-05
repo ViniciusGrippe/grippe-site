@@ -1,12 +1,9 @@
 import React from 'react';
-import { BiCompass } from 'react-icons/bi';
-import { HiOutlineAcademicCap } from 'react-icons/hi';
 
 import { NextPage } from 'next';
 import Link from 'next/link';
 import useSWR from 'swr';
 
-import CardComponent from '~/components/card';
 import { FooterComponent } from '~/components/footer';
 import { HeaderComponent } from '~/components/header';
 import { fetcher } from '~/config/api';

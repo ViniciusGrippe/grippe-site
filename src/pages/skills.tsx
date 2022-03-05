@@ -16,15 +16,7 @@ import { NextPage } from 'next';
 
 import { FooterComponent } from '~/components/footer';
 import { HeaderComponent } from '~/components/header';
-import {
-  Container,
-  Button,
-  Stack,
-  Text,
-  Avatar,
-  Box,
-  Card,
-} from '~/styles/global';
+import { Container, Button, Stack, Text, Box, Card } from '~/styles/global';
 
 const Index: NextPage = () => {
   const [tab, setTab] = React.useState(2);
