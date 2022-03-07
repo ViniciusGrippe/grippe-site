@@ -10,11 +10,6 @@ import { fetcher } from '~/config/api';
 import { Button, Container, Stack, Text } from '~/styles/global';
 
 const Index: NextPage = () => {
-  const { data: studies } = useSWR('/api/studies', fetcher);
-  const { data: careers } = useSWR('/api/careers', fetcher);
-
-  if (!studies || !careers) return <div>loading...</div>;
-
   return (
     <>
       <HeaderComponent />

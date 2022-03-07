@@ -9,14 +9,11 @@ import CardComponent from '~/components/card';
 import { FooterComponent } from '~/components/footer';
 import { HeaderComponent } from '~/components/header';
 import { fetcher } from '~/config/api';
+import dataCareers from '~/data/careers';
+import dataStudies from '~/data/studies';
 import { Container, Stack, Text } from '~/styles/global';
 
 const Index: NextPage = () => {
-  const { data: studies } = useSWR('/api/studies', fetcher);
-  const { data: careers } = useSWR('/api/careers', fetcher);
-
-  if (!studies || !careers) return <div>loading...</div>;
-
   return (
     <>
       <HeaderComponent />
@@ -28,7 +25,7 @@ const Index: NextPage = () => {
               <Text variant="title">Career</Text>
             </Stack>
             <Stack padding="20px 0" spacing={'15px'}>
-              {careers.data.map((item: any) => (
+              {dataCareers.map((item: any) => (
                 <CardComponent data={item} key={item.id} />
               ))}
             </Stack>
@@ -38,7 +35,7 @@ const Index: NextPage = () => {
             <Text variant="title">Studies</Text>
           </Stack>
           <Stack padding="20px 0" spacing={'15px'}>
-            {studies.data.map((item: any) => (
+            {dataStudies.map((item: any) => (
               <CardComponent data={item} key={item.id} />
             ))}
           </Stack>
