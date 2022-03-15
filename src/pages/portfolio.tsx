@@ -2,11 +2,9 @@ import React from 'react';
 import { BiBookBookmark } from 'react-icons/bi';
 
 import { NextPage } from 'next';
-import useSWR from 'swr';
 
 import { FooterComponent } from '~/components/footer';
 import { HeaderComponent } from '~/components/header';
-import { fetcher } from '~/config/api';
 import {
   Box,
   Button,

@@ -2,11 +2,9 @@ import React from 'react';
 
 import { NextPage } from 'next';
 import Link from 'next/link';
-import useSWR from 'swr';
 
 import { FooterComponent } from '~/components/footer';
 import { HeaderComponent } from '~/components/header';
-import { fetcher } from '~/config/api';
 import { Button, Container, Stack, Text } from '~/styles/global';
 
 const Index: NextPage = () => {
@@ -39,7 +37,7 @@ const Index: NextPage = () => {
                 <Button>View Portfolio</Button>
               </Link>
               <a
-                href="http://wa.me/+5565998091459"
+                href="http://wa.me/+5567998091459"
                 target="_blank"
                 rel="noreferrer"
               >
